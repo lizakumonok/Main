@@ -1,3 +1,5 @@
+setwd('C:/Users/Documents/Rprogramming')
+
 makeCacheMatrix <- function(x = matrix(sample(1:100,9),3,3)) {
   s <- NULL
   set <- function(y) {
